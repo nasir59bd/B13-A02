@@ -161,14 +161,18 @@
 .banner-button-2{
   width: 147px;
   height: 44px;
-  color: #00FF88;
-  font-weight: 600;
-  border: 1px solid #00FF88;
   border-radius: 1000px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  border: 1px solid #00FF88;
 }
+
+.banner-btn-text{
+  color: #00FF88;
+  font-weight: 600;
+  margin-left: -8px;
+}
+
 
 
 
@@ -241,3 +245,95 @@
   font-weight: bolder;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* why section  */
+
+.why-container{
+  height: 70rem;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 783px;
+  margin-top: 40px;
+}
+
+.why-section{
+  background-color: rgba(35, 14, 61, 1);
+  padding-bottom: 120px;
+}
+
+.why-section h2{
+  padding-top: 120px;
+  height: 58px;
+  padding-bottom: 60px;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
+}
+.why-container div{
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+
+.why-div1{
+            grid-column: span 1;
+            grid-row: span 2;
+            width: 380px;
+            height: 480px;
+            margin-top: 150px;
+        }
+.why-div2{
+            grid-column: span 2;
+            grid-row: span 1;
+            width: 790px;
+            height: 225px;
+            margin-top: 90px;
+        }
+.why-div3{
+            grid-column: span 2;
+            grid-row: span 1;
+            width: 790px;
+            height: 225px;
+            margin-top: 225px;
+        }
+.why-div4{
+            grid-column: span 2;
+            grid-row: span 1;
+            width: 790px;
+            height: 273px;
+            margin-top: 415px;
+        }
+.why-div5{
+            grid-column: span 1;
+            grid-row: span 1;
+            width: 380px;
+            height: 273px;
+            margin-top: 415px;
+        }
+
+.why-div4 img{
+  width: 60px;
+  height: 60px;
+}
+
+
