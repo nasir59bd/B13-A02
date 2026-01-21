@@ -465,3 +465,73 @@
   margin-left: 8px;
   margin-top: -4px;
 }
+
+
+
+
+
+/* Host section  */
+
+
+.host-section h2{
+  text-align: center;
+  height: 58px;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.host-content{
+  padding: 48.5px 40px;
+  background-color: #27143a;
+  width: 1200px;
+  height: 280px;
+  border-radius: 20px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 200px);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.host-mini{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.host-content img{
+  grid-column: span 1;
+  grid-row: span 1;
+  margin: auto;
+}
+
+.host-content div{
+  grid-column: span 4;
+  grid-row: span 1;
+}
+
+.host-content1 h3{
+  width: 896px;
+  height: 39px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.host-content1 p{
+  height: 72;
+  opacity: 60%;
+  margin-left: 0px;
+  padding-top: 16px;
+}
+
+
+.host-mini{
+  width: 184px;
+  height: 30px;
+  margin-left: 0;
+}
