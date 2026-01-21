@@ -15,7 +15,7 @@
 }
 
 *{
-  max-width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
   font-size: 1rem;
   color: white;
@@ -650,6 +650,78 @@ background-repeat: no-repeat;
   .wave1{
     font-size: 2px;
   }
+
+
+    .banner {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  .hero-circle img {
+    width: 240px;
+  }
+
+  .microphone img {
+    width: 70px;
+  }
+
+  .banner-content {
+    width: 90%;
+    margin-top: 140px;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 40px;
+  }
+
+  .banner-description {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .banner-btn {
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+  }
+
+
+    .banner {
+    height: auto;
+    padding-bottom: 80px;
+  }
+
+  .hero-circle img {
+    width: 240px;
+  }
+
+  .microphone img {
+    width: 70px;
+  }
+
+  .banner-content {
+    width: 90%;
+    margin-top: 140px;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 40px;
+  }
+
+  .banner-description {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .banner-btn {
+    flex-direction: column;
+    gap: 16px;
+    height: auto;
+  }
+
+
 }
 
 
