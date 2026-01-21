@@ -15,11 +15,15 @@
 }
 
 *{
-  max-width: 1600px;
+  max-width: 100%;
   margin: 0 auto;
   font-size: 1rem;
   color: white;
 }
+
+body {
+    overflow-x: hidden;
+  }
 
 
 /* header styles*/
@@ -46,6 +50,12 @@
   align-items: flex-start;
   gap: 32px;
   
+}
+
+.hamburger{
+  display: none;
+  width: 26px;
+  cursor: pointer;
 }
 
 .nav-links a{
@@ -610,3 +620,48 @@ background-repeat: no-repeat;
   opacity: 60%;
   padding-top: 20px;
 }
+
+
+
+@media (max-width: 577px) {
+
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  /* Hide desktop items */
+  .nav-links {
+    display: none;
+  }
+
+  .btn-1 {
+    display: none;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Keep brand visible */
+  .brand{
+    font-size: 20px;
+  }
+  .wave1{
+    font-size: 2px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
