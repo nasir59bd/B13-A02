@@ -59,11 +59,17 @@
   font-weight: bolder;
 }
 
-.brand .wave{
+.brand .wave1{
   width: 219px;
   height: 32px;
   font-size: 27px;
   font-weight: bolder;
+  background: linear-gradient(90deg, #ff4d94, #a64dff, #ff9966);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+
+
 }
 
 
@@ -143,6 +149,9 @@
 
 .banner-description{
   margin-top: -20px;
+  opacity: 80%;
+  width: 550px;
+  height: 19px;
 }
 
 
@@ -534,4 +543,68 @@
   width: 184px;
   height: 30px;
   margin-left: 0;
+}
+
+
+/* Footer Section  */
+
+
+footer{
+background-image: url(assets/footer-bg.png);
+width: 1600px;
+height: 412px;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.footer-section{
+  width: 1360px;
+  height: 412px;
+  padding: 110px;
+}
+
+.footer-div{
+  display: flex;
+  width: 544px;
+  height: 24px;
+  margin-top: 45px;
+  opacity: 60%;
+}
+
+.h1-div{
+  width: 410px;
+  height: 60px;
+}
+
+.footer h1{
+  font-size: 60px;
+  font-weight: bolder;
+  height: 4.5rem;
+  margin-left: 595px;
+}
+
+.brand1{
+  width: 300px;
+  height: 60px;
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: start;
+}
+
+.brand2{
+  width: 300px;
+  height: 60px;
+  font-size: 60px;
+  font-weight: bolder;
+  background: linear-gradient(90deg, #ff4d94, #a64dff, #ff9966);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  text-align: start;
+}
+
+.footer-section p{
+  text-align: center;
+  opacity: 60%;
+  padding-top: 20px;
 }
